@@ -1,0 +1,30 @@
+/* ===================== VERSION TABLET ===================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  body {
+    font-size: 17px;
+    padding: 40px;
+  }
+
+  .gracias-container {
+    padding: 40px 30px;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+
+  .gracias-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .gracias-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .img-boton img {
+    width: 250px;
+    border-radius: 20px;
+  }
+}

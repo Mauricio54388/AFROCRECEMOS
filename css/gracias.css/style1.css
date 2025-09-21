@@ -1,0 +1,58 @@
+/* ===================== RESET GENERAL ===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: linear-gradient(207.8deg, #000 16.69%, #1E2448 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.gracias-container {
+  background-color: #fff; /* contenedor blanco para contraste */
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.gracias-container h1 {
+  font-size: 1.8rem;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.gracias-container p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* ===================== BOTÓN CON IMAGEN ===================== */
+.img-boton img {
+  width: 200px; /* tamaño del botón */
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px; /* opcional, bordes redondeados */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.img-boton img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,32 @@
+/* ===================== VERSION PC ===================== */
+@media (min-width: 1025px) {
+
+  body {
+    font-size: 18px;
+    padding: 60px;
+    background: linear-gradient(135deg, #000 16.69%, #1E2448 100%);
+  }
+
+  .gracias-container {
+    padding: 50px 40px;
+    max-width: 800px;
+    border-radius: 25px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    text-align: center;
+  }
+
+  .gracias-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+
+  .gracias-container p {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+  }
+
+  .img-boton img {
+    width: 300px;
+    border-radius: 25px;
+  }
+}
